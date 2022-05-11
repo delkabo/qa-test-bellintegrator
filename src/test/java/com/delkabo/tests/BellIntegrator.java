@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class BellIntegrator {
+public class BellIntegrator extends TestBase {
 
     BellIntegratorObject bellIntegratorObject = new BellIntegratorObject();
 
